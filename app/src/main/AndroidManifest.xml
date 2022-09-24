@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.krc.findup">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Findup"
+        tools:targetApi="31">
+        <activity
+            android:name=".sett"
+            android:exported="false" />
+        <activity
+            android:name=".mesmain"
+            android:exported="false" />
+        <activity
+            android:name=".finded"
+            android:exported="false" />
+        <activity
+            android:name=".messagee"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
+            android:name=".like"
+            android:exported="false" />
+        <activity
+            android:name=".regfour"
+            android:exported="false" />
+        <activity
+            android:name=".regthree"
+            android:exported="false" />
+        <activity
+            android:name=".regtwo"
+            android:exported="false" />
+        <activity
+            android:name=".regone"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
